@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Jadin's First Website </title>
+        <style>
+            body {
+        background: gray;
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: yellow;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: gray;
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+        border-radius: 20px;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-content">
+            <nav>
+                <h1> Jadin's First Wesbite </h1>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="portfolio.html"> Portfolio </a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                </div>
+                
+                <div class="content">
+                    <header> Jadin Smith </header>
+                    <p> I am a student at Fontainbleau High School</p>
+                    <section class="interests">
+                        <header> Interests</header>
+                        <ul>
+                            <li> Basketball </li>
+                            <li> Math </li>
+                            <li> Playing Video Games </li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+            
+        </div>
+    </body>
+</html>
